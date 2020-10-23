@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>lzip7z</id>
+    <version>1.6</version>
+    <packageSourceUrl>https://github.com/zverev-iv/choco-lzip7z</packageSourceUrl>
+    <owners>zverev-iv</owners>
+    <title>lzip7z (Install)</title>
+    <authors>Dec Software</authors>
+    <projectUrl>https://www.tc4shell.com/en/7zip/lzip/</projectUrl>
+    <copyright>2020 Dec Software</copyright>
+    <licenseUrl>https://www.tc4shell.com/en/termsofuse/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>lzip7z 7zip 7-zip 7z lz</tags>
+    <summary>You can use Lzip7z to open, modify, or create .lz archives that are widely used on Unix-like systems.</summary>
+    <description>Lzip7z is a small plugin for the popular 7-Zip archiver. You can use Lzip7z to open, modify, or create .lz archives that are widely used on Unix-like systems.
+    </description>
+    <releaseNotes>Current version
+
+Plugin version: 1.6
+Distribution package release date: 10 Dec 2017
+    </releaseNotes>
+    <dependencies>
+        <dependency id="7zip.install" version="19.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
